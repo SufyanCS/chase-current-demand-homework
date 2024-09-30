@@ -3,15 +3,15 @@ import './App.css';
 import { useState, useEffect } from 'react';
 function App() {
   const [periods, setPeriods] = useState([
-    { period: 'period1', demand: 1200, regularCapacity: 2000, overtimeCapacity: 0, subcontractCapacity: 0 }
+    { period: 'period1', demand: 0, regularCapacity: 0, overtimeCapacity: 0, subcontractCapacity: 0 }
   ]);
   const [costs, setCosts] = useState({
-    regularTime: 8,
-    overtime: 12,
-    subcontracting: 17,
-    backorderCost: 4,
-    increaseCost: 5,
-    decreaseCost: 6,
+    regularTime: 0,
+    overtime: 0,
+    subcontracting: 0,
+    backorderCost: 0,
+    increaseCost: 0,
+    decreaseCost: 0,
   });
 
   const [results, setResults] = useState([]);
