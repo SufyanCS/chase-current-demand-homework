@@ -79,7 +79,7 @@ function App() {
         unitDecrease
       });
 
-      lastPeriodUnits = regularProduction; // Update for the next period
+      lastPeriodUnits = regularProduction; 
     });
 
     const subtotalCosts = {
@@ -123,7 +123,10 @@ function App() {
 
   return (
     <div className="font-sans p-5">
-      <h2 className="text-2xl font-bold mb-4">Chase Current Demand Calculator</h2>
+      <h2 className="text-2xl font-bold mb-4">Chase Current Demand - Homework</h2>
+      <h2 className="font-bold">Student: Sufyan Basurra</h2>
+      <h2 className="font-bold mb-4">Lecturer: Dr.Khadija Baomar</h2>
+
       
       <div className="flex md:flex-row flex-col-reverse justify-between">
         <div className="md:w-2/3 w-full">
@@ -217,6 +220,7 @@ function App() {
           ))}
         </tbody>
       </table>
+      <span className='flex justify-center my-4'>&copy; 2024 SufyanCS. All Rights Reserved.</span>
     </div>
   );
 };
